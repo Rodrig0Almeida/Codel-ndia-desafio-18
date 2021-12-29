@@ -1,12 +1,11 @@
 .fundo{
     height: 100vh;
-    background: url(spider-man-miles-morales-4k-2020-ix.jpg);
+    background-image:linear-gradient(90deg, rgba(11, 12, 16, 0.6) 0%, rgba(11, 12, 16, 0.4) 52.08%, rgba(12, 12, 16, 0.6) 100%),url(spider-man-miles-morales-4k-2020-ix.jpg);
     background-attachment: fixed;
     background-size: cover;
-    background: linear-gradient(90deg, rgba(11, 12, 16, 0.6) 0%, rgba(11, 12, 16, 0.4) 52.08%, rgba(12, 12, 16, 0.6) 100%);
 }
 @media screen and (max-width: 1024px) {
   .fundo {
-    background-image: url("Free Ps5 Miles Morales Wallpaper Background.jpg");
+    background-image:linear-gradient(90deg, rgba(11, 12, 16, 0.6) 0%, rgba(11, 12, 16, 0.4) 52.08%, rgba(12, 12, 16, 0.6) 100%),url("Free Ps5 Miles Morales Wallpaper Background.jpg");
   }
 }
