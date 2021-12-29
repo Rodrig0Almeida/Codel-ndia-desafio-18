@@ -14,9 +14,12 @@
   height: 70px;
 }
 .left{
+  width: 5%;
   display: inline-block;
 }
 .supeior{
+  float: right;
+  width: 95%;
   display: inline-block;
 }
 .avatar{
