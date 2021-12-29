@@ -9,30 +9,51 @@
     background-image:linear-gradient(90deg, rgba(11, 12, 16, 0.6) 0%, rgba(11, 12, 16, 0.4) 52.08%, rgba(12, 12, 16, 0.6) 100%),url("Free Ps5 Miles Morales Wallpaper Background.jpg");
   }
 }
+@font-face {
+  font-family:'Sora';
+  src:url("Sora-Bold.ttf");
+}
+
 .barra1{
-  display: inline-block;
+  position: fixed;
   background: rgba(29, 29, 29, 0.5);
+  width: 70px;
   height: 100vh;
-}
-.barra2{
-  display: inline-block;
-  background: rgba(29, 29, 29, 0.5);
-  height: 70px;
-}
-.supeior{
-  float: right;
-  width: 95%;
-  display: inline-block;
 }
 .avatar{
   padding: 10px;
   height: 50px;
   border-radius: 100%;
 }
+.barra2{
+  position: fixed;
+  margin: 0px 70px;
+  background: rgba(29, 29, 29, 0.5);
+  height: 70px;
+  width: 100%;
+}
+.esquerda{
+  float: left;
+  width: 100px;
+}
 .marvel{
-  padding: 14px 0px 14px 5%;
+  padding: 14px 20px 14px;
+}
+.direita{
+  margin: 27px 90px 27px 0;
+  float: right;
+  width: 356px;
+}
+.direita > p{
+  padding: 0 20px;
+  font-family: Sora;
+  color: #f9f9f9;
+  display: inline-block;
+}
+.centro{
+  margin:0 auto;width:100px;
 }
 .aranha{
-  padding: 10.835px 0px 10.835px 33%;
+  padding-top: 11.67px;
   width: 35px;
 }
