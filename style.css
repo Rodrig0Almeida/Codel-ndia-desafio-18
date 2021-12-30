@@ -15,6 +15,12 @@
 }
 body{
 }
+.fundo-barra{
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  backdrop-filter: blur(6px);
+}
 .barra{
   position: fixed;
   background: rgba(29, 29, 29, 0.5);
@@ -76,4 +82,14 @@ nav{
   padding: 10px 0;
   width: 35px;
   height: 70px;
+}
+main{
+  margin: 0;
+}
+main > img{
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+  height: 445px;
+  padding-top: 295px;
 }
