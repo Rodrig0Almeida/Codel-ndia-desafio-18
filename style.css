@@ -13,47 +13,60 @@
   font-family:'Sora';
   src:url("Sora-Bold.ttf");
 }
-
-.barra1{
+body{
+}
+.barra{
   position: fixed;
   background: rgba(29, 29, 29, 0.5);
-  width: 70px;
-  height: 100vh;
+  height: 70px;
+  width: 100%;
+}
+.esquerda{
+  padding: 0 10px;
+  float: left;
+}
+.marvel{
+  padding: 14px 0;
+}
+.direita{
+  padding: 0 20px;
+  float: right;
 }
 .avatar{
   padding: 10px;
   height: 50px;
   border-radius: 100%;
 }
-.barra2{
-  position: fixed;
-  margin: 0px 70px;
-  background: rgba(29, 29, 29, 0.5);
+.c-offcanvas-menu{
+  background: none;
+  border: none;
+  padding: 0;
   height: 70px;
-  width: 100%;
+  cursor: pointer;
 }
-.esquerda{
-  float: left;
-  width: 100px;
-}
-.marvel{
-  padding: 14px 20px 14px;
-}
-.direita{
-  margin: 27px 90px 27px 0;
-  float: right;
-  width: 356px;
-}
-.direita > p{
-  padding: 0 20px;
+.texto{
+  text-decoration: none;
+  padding: 25px 20px;
   font-family: Sora;
   color: #f9f9f9;
-  display: inline-block;
+  display: block;
+}
+.texto:hover{
+  background: rgba(29, 29, 29, 1)
+
+}
+nav{
+  position: absolute;
+  margin-top: 70px;
+  width: 144px;
+  background: rgba(29, 29, 29, 0.5);
 }
 .centro{
-  margin:0 auto;width:100px;
+  margin:0 auto;
+  width:35px;
 }
 .aranha{
-  padding-top: 11.67px;
+  padding: 10px 0;
   width: 35px;
+  height: 50px;
 }
