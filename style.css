@@ -22,7 +22,6 @@ body{
   width: 100%;
 }
 .esquerda{
-  padding: 0 10px;
   float: left;
 }
 .marvel{
@@ -34,24 +33,32 @@ body{
 }
 .avatar{
   padding: 10px;
-  height: 50px;
+  height: 70px;
   border-radius: 100%;
 }
-.c-offcanvas-menu{
+.c-button{
   background: none;
   border: none;
-  padding: 0;
+  padding: 0 20px;
   height: 70px;
   cursor: pointer;
 }
+.offcanvas-starte {
+  top: 0;
+  left: 0;
+  width: 400px;
+  background: rgba(29, 29, 29);
+  transform: translateX(-100%);
+}
 .texto{
   text-decoration: none;
-  padding: 25px 20px;
+  padding: 25px 30px;
   font-family: Sora;
   color: #f9f9f9;
   display: block;
 }
 .texto:hover{
+  color: #d60008;
   background: rgba(29, 29, 29, 1)
 
 }
@@ -68,5 +75,5 @@ nav{
 .aranha{
   padding: 10px 0;
   width: 35px;
-  height: 50px;
+  height: 70px;
 }
