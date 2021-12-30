@@ -93,6 +93,11 @@ main > img{
 	display: block;
   height: 140px;
 }
+@media screen and (max-width: 488px) {
+  main > img{
+    height: 100px;
+  }
+}
 .miranha{
   margin-left: auto;
   margin-right: auto;
