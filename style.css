@@ -39,20 +39,20 @@ body{
 .c-button{
   background: none;
   border: none;
-  padding: 0 20px;
+  padding: 0 10px;
   height: 70px;
   cursor: pointer;
 }
 .offcanvas-starte {
   top: 0;
   left: 0;
-  width: 400px;
+  width: 20%;
   background: rgba(29, 29, 29);
   transform: translateX(-100%);
 }
 .texto{
   text-decoration: none;
-  padding: 25px 30px;
+  padding: 25px 20px;
   font-family: Sora;
   color: #f9f9f9;
   display: block;
